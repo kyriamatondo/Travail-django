@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block titre %}{% endblock %}</title>
+</head>
+<body>
+<ul style="list-style:none;">
+    <li style="display:inline-block; padding:10px 20px;">
+        <a href="{% url 'home' %}">Accueil</a>
+    </li>
+    <li style="display:inline-block; padding:10px 20px;">
+        <a href="{% url 'membres' %}">Membres</a>
+    </li>
+    <li style="display:inline-block; padding:10px 20px;">
+        <a href="{% url 'contact' %}">Contact</a>
+    </li>
+</ul>
+</body>
+
+{% block contenu %}{% endblock %}
+</html>

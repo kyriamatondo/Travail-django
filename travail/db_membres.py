@@ -1,0 +1,17 @@
+membres=[
+    {
+        "nom":"Dorphy",
+        "postnom":"Kipuku",
+        "ville":"Kinshasa"
+    },
+{
+        "nom":"Rams",
+        "postnom":"Mayumbu",
+        "ville":"Kinshasa"
+    },
+{
+        "nom":"Dani",
+        "postnom":"Falanka",
+        "ville":"Kinshasa"
+    },
+]

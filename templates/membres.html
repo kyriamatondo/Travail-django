@@ -1,0 +1,12 @@
+{% extends 'template_base.html' %}
+{% block titre %}Page des membres{% endblock %}
+{% block contenu %}
+<h1>Liste des membres</h1>
+{% for membre in membres %}
+
+<h1>{{ membre.nom }}</h1>
+<p>{{ membre.postnom }}</p>
+<span>{{ membre.ville }}</span>
+
+{% endfor %}
+{% endblock %}
